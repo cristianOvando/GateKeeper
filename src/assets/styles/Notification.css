@@ -1,0 +1,86 @@
+.Header{
+    background-color: #92D2F2;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+}
+
+.Container-Logo{
+    display: grid;
+    place-items: center;
+}
+
+.logo{
+    margin-top: 2vh;
+    width: 10vh;
+    height: 10vh;
+    justify-content: center;
+}
+
+.containerHistorial{
+    color: #158981;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.tableHistorialNoti{
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.respuestaDos{
+    display: flex;
+    justify-content: center;
+    width: 60vh;
+    margin-bottom: 1vh;
+    color: rgb(92, 4, 4);
+}
+
+.trTitulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.respuestaUno{
+    justify-content: center;
+    display: flex;
+    width: 40vh;
+    margin-bottom: 1vh;
+    color: rgb(92, 4, 4);
+}
+
+.trNotis{
+    display: flex;
+    width: 40%;
+}
+
+.segundoCuerpo{
+    display: flex;
+    width: 60%;
+}
+
+.buttonHistorial{
+    background-color: rgb(7, 44, 42);
+    height: 50px;
+    width: 150px;
+    color: rgb(224, 224, 224);
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+    font-family: Roboto;
+    font-size: medium;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: sticky;
+}
+

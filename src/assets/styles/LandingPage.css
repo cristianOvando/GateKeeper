@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    font-family: Roboto;
+}
+
+.div-landing-content{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgL{
+    width: 130px;
+    height: 130px;
+}
+
+.Logo{
+    font-size:large;
+    font-weight:900;
+    margin-bottom: 10vh;
+}
+
+.iniciarSesion{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    background-color: #158981;
+    color: rgb(228, 228, 228);
+    position: relative;
+    overflow: hidden;
+    transform: skew(-30deg);
+    border: none;
+    outline: none;
+}
+
+   .iniciarSesion::before,
+   .iniciarSesion::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transform: skew(15deg);
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: -1;
+   }
+   
+   .iniciarSesion::before {
+    left: -10px;
+    background: #1BB1A7;
+   }
+   
+   .iniciarSesion::after {
+    right: -10px;
+    background: #21D9CC;
+   }
+   
+   .iniciarSesion:hover::before,
+   .iniciarSesion:hover::after {
+    width: 58%;
+   }
+
+.noti{
+    margin-top: 7vh;
+    display: flex;
+    color: #158981;
+    font-weight: bold;
+}
+
+.imgN{
+    width: 5vh;
+    height: 3vh;
+}
