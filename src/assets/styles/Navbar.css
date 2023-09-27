@@ -1,0 +1,14 @@
+.navbar-container {
+    text-align: center;
+    padding: 0.5vh;
+    font-weight: bolder;
+    font-size: x-large;
+    color: #701511;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+
+  }
+  
+ 
