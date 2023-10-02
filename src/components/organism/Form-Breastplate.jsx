@@ -41,24 +41,41 @@ function FormBreastPlate() {
           ) : (
             <span>¡Se parte de breastplate!</span>
           )}
-
-          <form action="#" id="form_input" onSubmit={handleSubmit}>
+          <form action="#" onSubmit={handleSubmit}>
             {showLogin ? (
               <>
-                <div className="type">
+              <div className='Login-container'>
+                <div className="typeL">
                   <input type="email" placeholder="Gmail" name="" id="email" />
                 </div>
-                <div className="type">
+                <div className="typeL">
                   <input type="password" placeholder="Password" name="" id="password" />
                 </div>
                 <div className="forgot">
                   <span>¿Olvidaste tu contraseña?</span>
                 </div>
+              </div>
               </>
             ) : (
               <>
+              <div className='Register-container'>
                 <div className="type">
                   <input type="text" name="" placeholder="Name" id="name" />
+                </div>
+                <div className="type">
+                <input type="text" name="" placeholder="Apellido" id="lasname" />
+                </div>
+                <div className="type">
+                <input type="text" name="" placeholder="username" id="name" />
+                </div>
+                <div className="type">
+                <input type="text" name="" placeholder="Edad" id="name" />  
+                </div>
+                <div className="type">
+                <input type="text" name="" placeholder="Estatura" id="name" />
+                </div>
+                <div className="type">
+                <input type="text" name="" placeholder="Peso" id="name" />
                 </div>
                 <div className="type">
                   <input type="email" name="" placeholder="Email" id="email" />
@@ -66,6 +83,7 @@ function FormBreastPlate() {
                 <div className="type">
                   <input type="password" name="" placeholder="Password" id="password" />
                 </div>
+              </div>
               </>
             )}
 
